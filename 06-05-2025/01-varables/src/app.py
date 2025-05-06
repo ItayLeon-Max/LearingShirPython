@@ -27,6 +27,19 @@ char2 = "b"
 sum_chars = char1 + " " + char2
 print("sum of chars is:", sum_chars)
 
+#input from user
+enter_first_name = input("Enter your first name: ")
+print("your name is:", enter_first_name)
+enter_age = int(input("Enter your age: ")) # int = integer
+print("your age is:", enter_age)
+
+#variable float
+float_num = 3.14
+enter_float_num = float(input("Enter a float number: "))
+print("float number is:", enter_float_num)
+
+#variable boolean
+is_name_shir = False
 
 
 
