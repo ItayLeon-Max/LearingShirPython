@@ -40,8 +40,25 @@ print("float number is:", enter_float_num)
 
 #variable boolean
 is_name_shir = False
+print(type(is_name_shir)) # printing the type of the variable
 
+num_to_string = 5
+# str(num_to_string) # converting int to string
+print("the number is:" + str(num_to_string)) # printing the type of the variable
 
+age = input("Enter your age: ")
+print("your age is:" + age)
+next_year =int(age) + 1
 
+number = 5.6
+print("the number is:" + str(number))
 
+print(type(number))
 
+PI = 3.14
+print(type(PI)) # printing the type of the variable
+
+number_of_tickets = input("Enter the number of tickets: ")
+PRICE_PER_TICKET = 40
+TOTAL_PRICE = int(number_of_tickets) * PRICE_PER_TICKET # calculating the total price
+print("the total price is:" + str(TOTAL_PRICE)) # printing the total price
