@@ -7,6 +7,7 @@ print("first string", "second string") # printing multiple strings
 name = "Shir Shlomy"
 print(name)
 
+# printing with different methods
 print("Hello World!") 
 print("Hello \nWorld!") # printing with a new line with \n
 print("Hello \"World!\"") # printing with a backslash with \"
@@ -33,13 +34,18 @@ print("your name is:", enter_first_name)
 enter_age = int(input("Enter your age: ")) # int = integer
 print("your age is:", enter_age)
 
+#char variable
+char1 = chr(input("Enter a char: ")) # chr = character
+print("your char is:", char1)
+#'a' , '4' , 'A' , '1'
+
 #variable float
 float_num = 3.14
 enter_float_num = float(input("Enter a float number: "))
 print("float number is:", enter_float_num)
 
 #variable boolean
-is_name_shir = False
+is_name_shir = True
 print(type(is_name_shir)) # printing the type of the variable
 
 num_to_string = 5
@@ -48,7 +54,7 @@ print("the number is:" + str(num_to_string)) # printing the type of the variable
 
 age = input("Enter your age: ")
 print("your age is:" + age)
-next_year =int(age) + 1
+next_year = int(age) + 1
 
 number = 5.6
 print("the number is:" + str(number))
