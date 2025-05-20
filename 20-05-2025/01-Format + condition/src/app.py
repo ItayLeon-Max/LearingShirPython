@@ -42,5 +42,5 @@ if(not(x<5)):
 if(((x<5) and (x>0))) or (x==5):
     print("x is less than 5 and bigger than 0 or x is equal to 5")  
 
-if((((x<5) and (x>0)) or (x==5)) and (x<10)):
+if((((x<5) and (x>0)) or ((x==5)) and (x<10))):
     print("x is less than 5 and bigger than 0 or x is equal to 5 and x is less than 10")
