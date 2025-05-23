@@ -38,16 +38,32 @@ else:
     print("special character")    
 
 #ex2
-score = int(input("Enter your score: "))
+# score = int(input("Enter your score: "))
+# message = ""
+# if(score >= 90 and score <= 100):
+#     message = "Excellent"
+# elif((score >= 80) and (score < 90)):
+#     message = "Very Good"
+# elif((score >= 60) and (score < 80)):
+#     message = "Passed"
+#     if((score >= 60) and (score < 70)):
+#         print("You should work hard")
+# else:
+#     print("Failed")
+
+grade = int(input("Enter your grade: "))
 message = ""
-if(score >= 90 and score <= 100):
+if((grade >=90) and (grade <= 100)):
     message = "Excellent"
-elif((score >= 80) and (score < 90)):
-    message = "Very Good"
-elif((score >= 60) and (score < 80)):
-    message = "Passed"
-    if((score >= 60) and (score < 70)):
-        print("You should work hard")
 else:
-    print("Failed")
+    if((grade >= 80) and (grade < 90)):
+        message = "Very Good"
+    else:
+        if((grade >= 60) and (grade < 80)):
+            message = "Passed"
+            if((grade >= 60) and (grade < 70)):
+                message = "You should work hard"
+        else:
+            message = "Failed"
+print(message)
              
