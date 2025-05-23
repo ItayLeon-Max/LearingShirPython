@@ -66,4 +66,10 @@ else:
         else:
             message = "Failed"
 print(message)
+
+# exit()
+number = int(input("Enter a number: "))
+if((number > 100) or (number < 0)):
+    print("this is not a grade")
+    exit()
              
