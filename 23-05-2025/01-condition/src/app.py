@@ -39,12 +39,13 @@ else:
 
 #ex2
 score = int(input("Enter your score: "))
-if(score >= 90):
-    print("Excellent")
+message = ""
+if(score >= 90 and score <= 100):
+    message = "Excellent"
 elif((score >= 80) and (score < 90)):
-    print("Very Good")
+    message = "Very Good"
 elif((score >= 60) and (score < 80)):
-    print("Passed")
+    message = "Passed"
     if((score >= 60) and (score < 70)):
         print("You should work hard")
 else:
