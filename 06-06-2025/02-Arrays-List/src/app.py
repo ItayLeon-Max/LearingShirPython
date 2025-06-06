@@ -74,6 +74,6 @@ print(type(my_tuple))
 
 
 arr5 = [1,2,3,4,5,5,6,7,8,9,10]
-print(arr5[:])
-print(arr5[:-1])
-print(arr5[::-1])
+print(arr5[:]) #copy the array
+print(arr5[:-1]) #slicing the array
+print(arr5[::-1]) #reverse the array
