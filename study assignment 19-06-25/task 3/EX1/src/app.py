@@ -1,10 +1,4 @@
 def f_2D(x0, x1, y0, y1):
-    """
-    generate a 2D list (f) of the function: x^2 + y^2
-    where x ranges between x0 and x1 including,
-    y ranges between y0 and y1 including
-    where x and y contain only integers
-    """
     f = []  
     for x in range(x0, x1 + 1):
         row = []
